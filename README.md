@@ -1,1 +1,1 @@
-Solutions to CoderByte challanges
+Solutions to CoderByte challenges
