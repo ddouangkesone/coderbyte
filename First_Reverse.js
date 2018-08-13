@@ -1,12 +1,8 @@
 function FirstReverse(str) {
-  let reversedArray = [];
-  const initialString = str.split("");
-
-  initialString.forEach(element => {
-    reversedArray.push(element);
-  });
-
-  return reversedArray.reverse().join("");
+  return str
+    .split("")
+    .reverse()
+    .join("");
 }
 
-FirstReverse("reverseD");
+FirstReverse("FooBar");
